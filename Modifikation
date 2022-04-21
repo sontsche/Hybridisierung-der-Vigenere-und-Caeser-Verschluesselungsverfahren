@@ -17,7 +17,7 @@ def encrypt(text,s):
 	return result
 
 #Versuch
-text = "DASISTDERSCHLUSSEL"
+text = "DIEHYBRIDISIERUNGDERBEIDENMETHODEN"
 s = 3
 print ("Text : " + text)
 print ("Shift : " + str(s))
@@ -60,7 +60,7 @@ def originalText(cipher_text, key):
 # run
 if __name__ == "__main__":
     string = "DIEHYBRIDISIERUNGDERBEIDENMETHODEN"
-    keyword = "encrypt(text,s)"
+    keyword = "GLHKBEULGLVLHUXQJGHUEHLGHQPHWKRGHQ"
     key = generateKey(string, keyword)
     cipher_text = cipherText(string,key)
     print("Ciphertext :", cipher_text)
